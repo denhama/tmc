@@ -15,13 +15,16 @@
     <module>jobs/process/Examples/getweather_0.1</module>
     <module>jobs/process/Examples/sayhello_0.1</module>
     <module>jobs/process/Examples/remoteengines_video_viewers_watch_0.1</module>
+    <module>jobs/process/Examples/jb_010_createstreamingdate_0.1</module>
+    <module>jobs/process/jb_010_test_mojave_tmap_0.1</module>
+    <module>jobs/process/jb_030_salesforce_objectfield_compare_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TMC</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
